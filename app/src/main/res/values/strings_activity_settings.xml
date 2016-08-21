@@ -1,0 +1,25 @@
+<resources>
+    <string name="title_activity_settings">@string/action_settings</string>
+
+    <string name="pref_sort_order_key" translatable="false">sortOrder</string>
+
+    <string name="pref_sort_order_label">@string/action_settings</string>
+    <string name="pref_sort_order_default">@string/popularity</string>
+    <string name="pref_sort_order_vote_average">@string/vote_average</string>
+    <string name="pref_sort_order_favorite">@string/favorite</string>
+
+    <string-array name="pref_sort_order_list_titles">
+        <item>@string/most_popular</item>
+        <item>@string/highest_rated</item>
+        <item>@string/MyFavorite</item>
+    </string-array>
+    <string-array name="pref_sort_order_list_values">
+        <item>@string/popularity</item>
+        <item>@string/vote_average</item>
+        <item>@string/favorite</item>
+
+    </string-array>
+
+</resources>
+
+
